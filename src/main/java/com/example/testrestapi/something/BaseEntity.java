@@ -24,13 +24,6 @@ public class BaseEntity {
         this.surname = surname;
     }
 
-    @Override
-    public String toString() {
-        return "BaseEntity{" +
-                "id=" + id +
-                '}';
-    }
-
     public long getId() {
         return id;
     }
